@@ -10,3 +10,4 @@ mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useUnifiedTopology:
 
 require( '../models/colaborador' );
 require( '../models/sede' );
+require( '../models/pesada' );

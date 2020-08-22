@@ -49,8 +49,7 @@ const sedeSchema = mongoose.Schema({
     telefono: [
         {   
             _id : false,
-            tipo: {
-                
+            tipo: {                
                 type: String,
                 trim: true
             },
